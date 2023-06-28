@@ -4,9 +4,10 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(91, 175, 72);
+  color: rgb(45, 93, 35);
   font-style: italic;
-  size: 200px;
+  font-size: 80px;
+  font-family: "Playfair Display", serif;
 }
 
 .skill-header {
@@ -30,21 +31,19 @@ p {
   color: white;
 }
 
-.skill-container {
-  border: solid rgb(91, 175, 72);
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 8px;
-  margin-bottom: 8px;
+.text-white {
+  color: aliceblue;
+}
+
+.text-green {
+  color: rgb(133, 207, 116);
+}
+
+.text-bold {
+  font-weight: 600;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
